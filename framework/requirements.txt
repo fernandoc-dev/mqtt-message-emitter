@@ -1,0 +1,2 @@
+# Framework dependencies (none required currently)
+# Add tools here if the framework itself needs third-party libs.

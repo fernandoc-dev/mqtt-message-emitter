@@ -1,0 +1,198 @@
+{
+    "model": "DetectedObject",
+    "seeds": [
+        {
+            "name": "Fuego",
+            "description": "Fuego activo detectado",
+            "class_id": "F001",
+            "class_name": "fuego_fuego"
+        },
+        {
+            "name": "Humo",
+            "description": "Humo de incendio detectado",
+            "class_id": "F002",
+            "class_name": "fuego_humo"
+        },
+        {
+            "name": "Chispas",
+            "description": "Chispas de fuego detectadas",
+            "class_id": "F003",
+            "class_name": "fuego_chispas"
+        },
+        {
+            "name": "Brasas",
+            "description": "Brasas ardientes detectadas",
+            "class_id": "F004",
+            "class_name": "fuego_brasas"
+        },
+        {
+            "name": "Cenizas",
+            "description": "Cenizas de fuego detectadas",
+            "class_id": "F005",
+            "class_name": "fuego_cenizas"
+        },
+        {
+            "name": "Lena ardiendo",
+            "description": "Lena en proceso de combustion",
+            "class_id": "F006",
+            "class_name": "fuego_lena"
+        },
+        {
+            "name": "Fuego con basura",
+            "description": "Fuego en basura o residuos",
+            "class_id": "F007",
+            "class_name": "fuego_basura"
+        },
+        {
+            "name": "Bombona de butano",
+            "description": "Bombona de gas butano",
+            "class_id": "F008",
+            "class_name": "fuego_butano"
+        },
+        {
+            "name": "Rayo",
+            "description": "Rayo electrico detectado",
+            "class_id": "N001",
+            "class_name": "otros_rayo"
+        },
+        {
+            "name": "Tractor",
+            "description": "Tractor agricola o industrial",
+            "class_id": "M001",
+            "class_name": "relacionados_tractor"
+        },
+        {
+            "name": "Excavadora",
+            "description": "Excavadora o maquina excavadora",
+            "class_id": "M002",
+            "class_name": "relacionados_excavadora"
+        },
+        {
+            "name": "Compresor de aire",
+            "description": "Compresor de aire industrial",
+            "class_id": "M003",
+            "class_name": "relacionados_compresor_de_aire"
+        },
+        {
+            "name": "Generador electrico",
+            "description": "Generador electrico portatil o fijo",
+            "class_id": "M004",
+            "class_name": "relacionados_generador_electrico"
+        },
+        {
+            "name": "Bicicleta",
+            "description": "Bicicleta de cualquier tipo",
+            "class_id": "V001",
+            "class_name": "vehiculos_bicicleta"
+        },
+        {
+            "name": "Moto",
+            "description": "Motocicleta o moto",
+            "class_id": "V002",
+            "class_name": "vehiculos_moto"
+        },
+        {
+            "name": "Coche",
+            "description": "Automovil o coche particular",
+            "class_id": "V003",
+            "class_name": "vehiculos_coche"
+        },
+        {
+            "name": "Furgoneta",
+            "description": "Furgoneta de transporte",
+            "class_id": "V004",
+            "class_name": "vehiculos_furgoneta"
+        },
+        {
+            "name": "Autobus",
+            "description": "Autobus de transporte publico",
+            "class_id": "V005",
+            "class_name": "vehiculos_autobus"
+        },
+        {
+            "name": "Camion",
+            "description": "Camion de carga general",
+            "class_id": "T001",
+            "class_name": "vehiculos_camion"
+        },
+        {
+            "name": "Remolque",
+            "description": "Remolque de transporte",
+            "class_id": "T002",
+            "class_name": "vehiculos_remolque"
+        },
+        {
+            "name": "Contenedor",
+            "description": "Contenedor de transporte",
+            "class_id": "T003",
+            "class_name": "vehiculos_contenedor"
+        },
+        {
+            "name": "Camion grua",
+            "description": "Camion con grua para elevacion",
+            "class_id": "T004",
+            "class_name": "camiones_grua"
+        },
+        {
+            "name": "Camion hormigonera",
+            "description": "Camion hormigonera para construccion",
+            "class_id": "T005",
+            "class_name": "camiones_hormigonera"
+        },
+        {
+            "name": "Camion trailer",
+            "description": "Camion trailer de gran capacidad",
+            "class_id": "T006",
+            "class_name": "camiones_trailer"
+        },
+        {
+            "name": "Camion volquete",
+            "description": "Camion volquete para materiales",
+            "class_id": "T007",
+            "class_name": "camiones_volquete"
+        },
+        {
+            "name": "Camion frigorifico",
+            "description": "Camion frigorifico para alimentos",
+            "class_id": "T008",
+            "class_name": "camiones_frigorifico"
+        },
+        {
+            "name": "Camion cisterna",
+            "description": "Camion cisterna para liquidos",
+            "class_id": "T009",
+            "class_name": "camiones_cisterna"
+        },
+        {
+            "name": "Persona",
+            "description": "Persona detectada",
+            "class_id": "P001",
+            "class_name": "otros_personas"
+        },
+        {
+            "name": "Tienda de campana",
+            "description": "Tienda de campana o carpa",
+            "class_id": "P002",
+            "class_name": "otros_tienda_de_campana"
+        },
+        {
+            "name": "camión",
+            "description": "Camion con tilde",
+            "class_id": "T010",
+            "class_name": "camiones"
+        },
+        {
+            "name": "hoguera",
+            "description": "Hoguera",
+            "class_id": "H001",
+            "class_name": "fuego_hoguera"
+        },
+        {
+            "name": "gente",
+            "description": "Gente",
+            "class_id": "G001",
+            "class_name": "personas_gente"
+        }
+    ]
+}
+
